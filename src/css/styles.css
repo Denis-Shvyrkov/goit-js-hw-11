@@ -28,6 +28,31 @@
   margin-bottom: 20px;
 }
 
+button {
+  color: #ffff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 75px;
+  height: 40px;
+  background: #4e75ff;
+  border-color: transparent;
+}
+button:hover,
+button:focus {
+  background: #6c8cff;
+}
+
+.search {
+  padding: 5px 10px;
+  border: 1px solid #808080;
+  border-radius: 8px;
+}
+
+.search:hover,
+.search:focus {
+  border: 1px solid #000;
+}
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
